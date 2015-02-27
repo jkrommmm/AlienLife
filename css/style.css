@@ -1,0 +1,136 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: MuseoSans;
+	src: url("../fonts/exljbris%20-%20MuseoSans-500.otf");
+}
+
+@font-face {
+	font-family: MuseoSansItatlic;
+	src: url("../fonts/exljbris%20-%20MuseoSans-500Italic.otf");
+}
+
+html {
+	background-color: black;
+	color: white;
+	font-family: MuseoSans, sans-serif;
+
+}
+
+#header {
+	background-image: url("../images/mars_full.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 20%;
+	font-size: 300%;
+}
+
+h2 {
+	font-size: 150%;
+	padding-bottom: 7%;
+}
+
+h3 {
+	padding-left: 5%;
+	padding-bottom: 12px;
+}
+
+p {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 12px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+.italic {
+	font-family: MuseoSansItatlic, sans-serif;
+}
+
+#leftbox {
+	float: left;
+	font-size: 25px;
+	border-top: solid white 5px;
+	border-bottom: solid white 5px;
+	width: 25%;
+	padding: 0;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#leftbox p{
+	padding: 5px;
+	padding-left: 8px;
+}
+
+#rightbox {
+	float: right;
+	width: 25%;
+	padding: 2px;
+	border-bottom: solid white 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+#rightbox img {
+	 width: 100%;
+}
+
+#rightbox p {
+	font-size: 10px;
+	padding-bottom: 3px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	#leftbox {
+		width: 90%;
+		margin-left: 15px;
+	}
+
+	#rightbox {
+		width: 90%;
+		margin-left: 15px;
+		margin-bottom: 10px;
+	}
+}
+
